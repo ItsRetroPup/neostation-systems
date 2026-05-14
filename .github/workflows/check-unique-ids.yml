@@ -1,0 +1,15 @@
+name: Check Unique IDs
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-unique-ids:
+    name: Verify no duplicate unique_id across systems
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run unique_id check
+        run: python check_unique_ids.py

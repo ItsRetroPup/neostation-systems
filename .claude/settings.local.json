@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python \"D:\\\\Workspace\\\\Personal\\\\neostation-systems\\\\scripts\\\\check_unique_ids.py\")",
+      "Bash(python *)"
+    ]
+  }
+}
