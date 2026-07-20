@@ -16,7 +16,9 @@
     },
     "folders": [
       "neogeo",
-      "Neo Geo"
+      "Neo Geo",
+      "neogeoaes",
+      "neogeomvs"
     ],
     "colors": [
       "#263238",

@@ -16,7 +16,8 @@
     },
     "folders": [
       "sfc",
-      "Super Famicom"
+      "Super Famicom",
+      "sfam"
     ],
     "colors": [
       "#EEEEEE",
